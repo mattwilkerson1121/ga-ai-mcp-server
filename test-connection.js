@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const CREDENTIALS_PATH = process.env.GOOGLE_APPLICATION_CREDENTIALS || 'asidatakpiskey.json';
-const PROPERTY_IDS = (process.env.GA_PROPERTY_ID || 'YOUR GA PROPERTY ID').split(',');
+const PROPERTY_IDS = (process.env.GA_PROPERTY_ID || 'YOUR GA PROPERTY ID or MULTIPLE PROPERTIES COMMA SEPARATED').split(',');
 
 function getDateRange() {
   const endDate = new Date();
