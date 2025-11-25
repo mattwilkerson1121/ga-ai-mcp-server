@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ga4-analytics": {
+      "command": "/Users/mwilker/.nvm/versions/node/v24.11.1/bin/node",
+      "args": [
+        "/Users/mwilker/python/ga4-automation/src/index.js"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/mwilker/python/ga4-automation/asidatakpiskey.json",
+        "GA_PROPERTY_ID": "325253028",
+        "NODE_OPTIONS": "--no-deprecation"
+      }
+    }
+  }
+}
