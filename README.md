@@ -21,8 +21,8 @@ connection test script.
 ## 2. Clone the project and install dependencies
 
 ```bash
-cd /<path-to-your-project>
-git clone [<your-repo-url> # or copy the folder another way
+cd /<path-to-your-projects>/ga4-automation
+git clone https://github.com/mattwilkerson1121/ga-ai-mcp-server/ # or copy the folder another way
 cd ga4-automation
 
 npm install
